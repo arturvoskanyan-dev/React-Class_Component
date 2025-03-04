@@ -26,7 +26,10 @@
 }
 
 .box-item-header > h2 {
+    max-width: 80px;
     color: red;
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
 }
 
 .box-item-header > button {
@@ -36,7 +39,7 @@
     border: none;
     border-radius: 4px;
     color: #fff;
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(3, 37, 65);
     cursor: pointer;
 }
 
@@ -77,7 +80,7 @@
     width: 100px;
     height: 30px;
     color: #fff;
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(3, 37, 65);
     border: none;
     border-radius: 6px;
     cursor: pointer;

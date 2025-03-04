@@ -12,9 +12,9 @@ export default class ProductItem extends Component {
 
             <header className="box-item-header">
               <h2>{Math.round(price * count)}$</h2>
-              <button onClick={onPlus}>+</button>
-              <span>{count}</span>
               <button onClick={onMinus}>-</button>
+              <span>{count}</span>
+              <button onClick={onPlus}>+</button>
             </header>
 
             <div className="box-item-info">

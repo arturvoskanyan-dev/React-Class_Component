@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import NavItem from "./NavItem/NavItem"
+import search from "../../assets/search.png"
 import "./Nav.css"
 
 export default class Nav extends Component {
@@ -15,6 +16,7 @@ export default class Nav extends Component {
             
             <div className="nav-search">
                 <input type="text" />
+                <img src={search} />
             </div>
         </div>
       </nav>

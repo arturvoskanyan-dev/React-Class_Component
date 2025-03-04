@@ -1,6 +1,5 @@
 nav {
-    background-color: rgb(0, 132, 255);
-    padding: 8px;
+    background-color: rgb(3, 37, 65);
     color: #ffff;
     position: fixed;
     width: 100%;
@@ -9,11 +8,12 @@ nav {
 .container {
     display: flex;
     justify-content: space-evenly;
-    padding: 12px;
+    padding: 10px;
+    align-items: center;
 }
 
 .nav-logo > h1 {
-    font-size: 32px;
+    color: aqua;
     cursor: pointer;
 }
 
@@ -22,10 +22,15 @@ nav {
 }
 
 .nav-search > input {
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
     padding: 10px;
     border-radius: 12px;
+}
+
+.nav-search > img {
+    vertical-align: middle;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {
